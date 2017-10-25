@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ashus/Documents/GitHub/minor-one/direc/main.c
+stdio.h
+-
+stdlib.h
+-
+sys/stat.h
+-
+dirent.h
+-
+
